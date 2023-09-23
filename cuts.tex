@@ -1,0 +1,336 @@
+Additionally we may consider matter effects via the weak interaction. Electron (anti)neutrinos passing through matter preferentially interact via weak charge-current (via the $W^{\pm}$ boson) with electrons which make up the bulk of charged leptons in most matter. The neutral-current (via the $Z_{0}$ boson) however affects all flavors and couples to the neutrons within the medium as the electron and proton contributions cancel in charge neutral matter. This can be represented, MSW effect aside, as the weak charge-current $V_{CC}$ and neutral-current $V_{NC}$ effective potentials~\cite{Pal:1991pm,greiner2009gauge} which contribute to the action as
+\begin{align}
+\label{matter:1}
+\mathcal{L}_\mathrm{matter}^\mathrm{Maj.} &= \bar\nu_{\ell}(\gamma_{0}V_{\ell\ell'})\nu_{\ell'}\,,\qquad
+V_{\ell\ell'} = 
+\begin{pmatrix}
+V_{CC}+V_{NC} & 0 & 0\\
+0 & V_{NC} & 0\\
+0 & 0 & V_{NC}
+\end{pmatrix}\,,\\
+V_{CC} &= \sqrt{2}G_{F}\hbar^{2}c^{2}n_{e}\,,\qquad V_{NC} = -\frac{1}{2}\sqrt{2}G_{F}\hbar^{2}c^{2}n_{n}\,.
+\end{align}
+The coefficient $G_{F}$ is the Fermi constant, $n_{e}$ is the number density of electron matter and $n_{n}$ is the number density of neutrons within the medium. We note that $V_{\ell\ell'}\gamma_{0}$ behaves like the zeroth component of a vector-potential. As written, \req{matter:1} is approximately true for non-relativistic matter.
+
+
+
+The most general unitary $2\times2$ matrix can be written as
+\begin{alignat}{1}
+	\label{mix:4} W_{\ell k}(\theta) = 
+    \left(
+    \begin{array}{cc}
+         e^{i \alpha } \cos (\theta ) & e^{i (\beta +\phi )} \sin (\theta ) \\
+         -e^{i (\alpha -\phi )} \sin (\theta ) & e^{i \beta } \cos (\theta ) \\
+    \end{array}
+    \right)
+\end{alignat}
+which contains up to three phases $\alpha,\beta,\gamma$ and angle $\theta$.
+
+
+
+
+ \begin{align}
+    \label{chiral:1b}
+   \frac{1}{2}\sigma_{\alpha\beta}F^{\alpha\beta}\psi_{L} = \vec{\sigma}\cdot\vec{f}_{+}\psi_{L}\,,\qquad
+    \frac{1}{2}\sigma_{\alpha\beta}F^{\alpha\beta}\psi_{R} = \vec{\sigma}\cdot\vec{f}_{-}\psi_{R}\,,\qquad
+\end{align}
+where $\psi_{L}$ and $\psi_{R}$ are arbitrary left and right-handed two-component spinors.
+
+
+
+
+At this point it is good to remember that quantum mechanics predicts that relativistic massive neutral particles with magnetic dipoles in magnetic fields have energy eigenstates~\cite{Steinmetz:2018ryf} of
+\begin{align}
+    \label{kgp:1}
+    E(p,B) = \sqrt{m^{2}c^{4}\pm2\mu Bmc^{2}+p^{2}c^{2}}
+\end{align}
+depending on the spin alignment of the particle with the magnetic field. Therefore neutrinos propagating in EM fields will not be travelling in free-particle mass eigenstates, but magnetized states.
+
+
+
+
+Considering the generalization of the $2\times 2$ Pauli matrices~\cite{Ohlsson:2011zz} we obtain the covariant form 
+\begin{align}       \label{cross:1a}    
+        \sigma^{\alpha}=(1,+\vec{\sigma})\,,\qquad
+        \bar\sigma^{\alpha}=(1,-\vec{\sigma})\,.
+\end{align}
+which mirrors the Weyl (chiral) representation of $\gamma^\alpha$
+\begin{align}       \label{cross:1c}    
+\gamma^\alpha =(off-diag I_2,I_2;\vec\sigma,-\vec\sigma)
+\end{align}
+This allows us to write 
+        \begin{align}
+        \label{cross:2}        \left(\vec{\sigma}\cdot\vec{f}_{+}\right)\left(\vec{\sigma}\cdot\vec{f}_{-}\right)=\sigma_{\alpha}\sigma_{\beta}T^{\alpha\beta}\,,\qquad
+        \left(\vec{\sigma}\cdot\vec{f}_{-}\right)\left(\vec{\sigma}\cdot\vec{f}_{+}\right)=\bar\sigma_{\alpha}\bar\sigma_{\beta}T^{\alpha\beta}\,,
+\end{align}
+where $\sigma^{\alpha}$ and $\bar\sigma^{\alpha}$ are the Pauli 4-vectors and $T^{\alpha\beta}$ is the EM stress-energy tensor.
+
+
+
+
+We note that the Lagrangian term in \req{massmom:1} is acting to the right on a left-handed chiral neutrino spinor (with the right-handed charged conjugated portion being acted upon in the Hermitian conjugate). Therefore, we can rewrite \req{massmom:1} in two-component form as
+\begin{align}
+    \label{massmom:1a}
+    \mathcal{L}_\mathrm{eff}^\mathrm{Maj.} = 
+    -\frac{1}{2}\nu_{L,2,\ell}^{T}C_{2}^{\dag}\left(M_{\ell\ell'}+\mu_{\ell\ell'}\vec{\sigma}\cdot\vec{f}_{+}\right)\nu_{L,2,\ell'}+\mathrm{h.c.}
+\end{align}
+where the operator $C_{2}$ is the charge conjugation matrix is written as a $2\times 2$ matrix.
+
+
+
+
+Using \req{mix:1}, we write the mass-dipole matrix in \req{massmom:2} in terms of spin-flavor components as
+\begin{align}
+	\label{mix:2a}
+    \mathcal{M}_{\ell\ell'} = 
+	\begin{pmatrix}
+		m_{\nu_{e}} & {\delta m}+i\delta\mu\sigma_{\alpha\beta}F^{\alpha\beta}/2\\
+		{\delta m}-i\delta\mu\sigma_{\alpha\beta}F^{\alpha\beta}/2 & m_{\nu_{\mu}}
+	\end{pmatrix}\equiv
+    \begin{pmatrix}
+        m_{\nu_{e}} & a_{+}\\
+        a_{-} & m_{\nu_{\mu}}
+    \end{pmatrix}\,,
+\end{align}
+and define the auxiliary complex variables $a_{\pm}$ and their products as
+\begin{align}
+    \label{mix:2b}
+    a_{\pm}&={\delta m}\pm \frac{i}{2}\delta\mu(\sigma_{\alpha\beta}F^{\alpha\beta})\,,\qquad
+    a_{\pm}^{\dag}={\delta m}\mp\frac{i}{2}\delta\mu(\sigma_{\alpha\beta}^{\dag}F^{\alpha\beta})\,,\\
+    \label{mix:2c}
+    a_{\pm}a_{\pm}^{\dag}&=\delta m^{2}\pm
+    \frac{i}{2}\delta\mu\delta m\left(\sigma_{\alpha\beta}-\sigma_{\alpha\beta}^{\dag}\right)F^{\alpha\beta}+
+    \frac{1}{4}\delta\mu^{2}(\sigma_{\alpha\beta}F^{\alpha\beta})(\sigma_{\alpha\beta}^{\dag}F^{\alpha\beta})\,,\\
+    \label{mix:2d}
+    a_{\mp}a_{\pm}^{\dag}&=\delta m^{2}\mp\frac{i}{2}\delta m\delta\mu\left(\sigma_{\alpha\beta}+\sigma_{\alpha\beta}^{\dag}\right)F^{\alpha\beta}-\frac{1}{4}\delta\mu^{2}(\sigma_{\alpha\beta}F^{\alpha\beta})(\sigma_{\alpha\beta}^{\dag}F^{\alpha\beta})\,,\\
+    \label{mix:2e}
+    a_{\pm}a_{\mp}&=\delta m^{2} + \frac{1}{4}\delta\mu^{2}(\sigma_{\alpha\beta}F^{\alpha\beta})^{2}\,,
+\end{align}
+such that \req{mix:2a} can be written more compactly. We note that the last term in $a_{\pm}a_{\pm}^{\dag}$ contain the product of $T^{\alpha\beta}$ found in \req{cross:2}. The second terms in \req{mix:2c} and \req{mix:2d} are projections of the anti-Hermitian and Hermitian parts of $\sigma_{\alpha\beta}F^{\alpha\beta}$.
+
+\req{mix:2b} through \req{mix:2e} also reveal some interesting consequences in the presence of terms both linear in fields and quadratic in fields. The linear terms proportional to $\delta m\delta\mu\sigma F$ (with spacetime indices suppressed) involve flavor-spin rotation which is only present when off-diagonal neutrino mass terms are nonzero. The quadratic in fields terms proportional to $\delta\mu^{2}(\sigma F)^{2}$ however are induced flavor-mixing which occurs even if the neutrino mass matrix was wholly diagonal to begin with. Two limits of interest are then: (a) the weak field limit where the $\delta m\gg\delta\mu\sigma F$ such that the magnetic dipole moment only perturbs the off-diagonal mass element and (b) the strong field limit $\delta m\ll\delta\mu\sigma F$ where the magnetic dipole moment acts alone as an off-diagonal energy contribution.
+
+The eigenvalues of \req{mix:2a} are then spin and field dependant effective masses $\widetilde{m}_{k}(E,B)$ resulting from a rotation $W$ (in contrast to $V$ in \req{diag:1}) that diagonalizes the Hermitian quantity 
+\begin{align}
+    \label{herm:1}
+    \left(\mathcal{M}\mathcal{M}^{\dag}\right)_{\ell\ell'}&=
+    \begin{pmatrix}
+        |m_{\nu_{e}}|^{2}+a_{+}a_{+}^{\dag} & m_{\nu_{e}}a_{-}^{\dag}+a_{+}m_{\nu_{\mu}}^{*}\\
+        a_{-}m_{\nu_{e}}^{*}+m_{\nu_{\mu}}a_{+}^{\dag} & |m_{\nu_{\mu}}|^{2}+a_{-}a_{-}^{\dag}\\
+    \end{pmatrix}\equiv
+    \begin{pmatrix}
+        A & C\\
+        C^{\dag} & B
+    \end{pmatrix}\,,\\
+    \label{herm:2}
+    \widetilde{m}^{2}_{kk'}&= \mathrm{diag}(\widetilde{m}_{1}^{2},\widetilde{m}_{2}^{2})=W_{\ell k}^{\dag}\left(\mathcal{M}\mathcal{M}^{\dag}\right)_{\ell\ell'}W_{\ell'k'}\,.
+\end{align}
+This new magnetized basis is distinct from the mass basis and the flavor basis representations described in \req{basis:1}. For convenience we have defined the three unique elements $(A,B,C)$ of \req{herm:1}. The eigenvalues of \req{herm:1} are obtained from the roots of the characteristic equation
+\begin{align}
+    \label{secular:1}
+    (A-\lambda_{k})(B-\lambda_{k})-CC^{\dag}=0\,,\qquad
+    \lambda_{k}=\widetilde m_{k}^{2}\,.
+\end{align}
+
+
+
+
+
+BELOW HERE NEEDS MATH/NOTATION REVISIONS. ONLY TRUE FOR PURE B CASE: Self note: Nice rotations can be described for the pure E case, pure B case, and plane waves. General solution to rotation is illusive.
+
+A suitable unitary $2\times2$ rotation matrix to diagonalize \req{herm:1} can be written as
+\begin{alignat}{1}
+	\label{mix:4} W(\theta,\phi) = 
+    \left(
+    \begin{array}{cc}
+         \cos (\theta ) & e^{i \phi } \sin (\theta ) \\
+         -e^{-i \phi } \sin (\theta ) & \cos (\theta ) \\
+    \end{array}
+    \right)\,,\qquad
+    W_{\ell k}W^{\dag}_{\ell' k} = 1\,,
+\end{alignat}
+which contains one complex phase $\phi$ and one angle $\theta$. The mass-dipole diagonalization is then given by the expression
+\begin{alignat}{1}
+	\label{mix:5} \widetilde{m}_{kk'} = \mathrm{diag}(\widetilde{m}_{1}^{2},\widetilde{m}_{2}^{2})=W_{\ell k}^{\dag}\left(\mathcal{M}\mathcal{M}^{\dag}\right)_{\ell\ell'}W_{\ell'k'}
+\end{alignat}
+The assignment of the parameters $\theta$ and $\phi$ can be obtained from the
+
+where we have defined the difference in diagonal mass elements as
+\begin{align}
+    \Delta m = m_{\nu_{\mu}} - m_{\nu_{e}}\,.
+\end{align}
+We find a suitable rotation matrix $W$ to be
+\begin{multline}
+    \label{w:1}
+    W=\frac{|z|^{1/2}}{\left(\delta m^{2} + 4|z|^{2}\right)^{1/4}}\\
+    \begin{pmatrix}
+        -ie^{i\gamma/2}\frac{1}{2|z|}\left(\delta m + \sqrt{\delta m^{2} + 4|z|^{2}}\right) & -ie^{i\gamma/2}\frac{1}{2|z|}\left(\delta m - \sqrt{\delta m^{2} + 4|z|^{2}}\right)\\
+        ie^{-i\gamma/2} & ie^{-i\gamma/2}        
+    \end{pmatrix}
+\end{multline}
+which satisfies
+\begin{align}
+    WW^{\dag}=WW^{-1}=1\,,\qquad \mathrm{det}[W]=1\,,
+\end{align}
+which are the necessary conditions which for a unitary matrix.
+
+Using \req{w:1}, the eigenvalues of the mass-dipole matrix are therefore
+\begin{align}
+    \label{eigenvalue:1}
+    \widetilde{m}(B)_{\pm}=\frac{1}{2}\left(m_{\nu_{e}}+m_{\nu_{\mu}}\pm\sqrt{\Delta m^{2}+4{\delta m}^{2}+4\mu^{2}B^{2}}\right)\,,
+\end{align}
+\req{eigenvalue:1} shows that the mass splitting between the two propagating states is modified by the off-diagonal couplings in the mass matrix as well as the magnetic dipole energy $\mu B$.
+
+If the magnetic field is set to zero $(\vec{B}=0)$, the above rotation simplifies to that of just an off-diagonal mass. The complex phase $\phi$ vanishes in a such a limit, while the rotation angle $\theta$ relaxes to the free-particle value. The inclusion of an electric field is also possible in this formation as described earlier however the mass-dipole matrix is rendered non-Hermitian and the eigenvalues more complicated in form similar to that of a complex off-diagonal mass ${\delta m}$. Mathematically both break Hermiticity in the same manner.
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Raw materials}
+\label{sec:raw}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The Hermitian mass-dipole square $\mathcal{M}\mathcal{M}^{\dag}$ including the matter term $A$ is
+\begin{align}
+    \label{hermz:1}
+    \begin{split}
+        (\mathcal{M}\mathcal{M}^{\dag})_{\ell\ell'}
+        &=(MM^{\dag})_{\ell\ell'}+A_{\ell\ell'}+(\mu\mu^{\dag})_{\ell\ell'}\frac{1}{4}\left(\sigma_{\alpha\beta}F^{\alpha\beta}\right)\left(\sigma_{\alpha\beta}F^{\alpha\beta}\right)^{\dag}\\
+        &+(M\mu^{\dag})_{\ell\ell'}\frac{1}{2}\left(\sigma_{\alpha\beta}F^{\alpha\beta}\right)^{\dag}
+        +(\mu M^{\dag})_{\ell\ell'}\frac{1}{2}\left(\sigma_{\alpha\beta}F^{\alpha\beta}\right)\,,        
+    \end{split}
+\end{align}
+where we have also included the linear term for matter weak interactions~\cite{Wolfenstein:1977ue} given by
+\begin{align}
+    \label{matter:1}
+    A_{\ell\ell'}=A
+    \begin{pmatrix}
+        1 & 0\\
+        0 & 0
+    \end{pmatrix}\,,\qquad
+    A\propto G_{F}\rho_{e}\,.
+\end{align}
+\req{herm:1} can be simplified somewhat further by recalling that $M^{\dag}=M$ and $\mu^{\dag}=\mu$.
+
+
+
+
+
+Despite the fact that $V$ will not fully diagonalize \req{herm:1}, it greatly simplifies the expression to
+\begin{align}
+    \begin{split}
+    \label{hermz:2}
+    (V^{\dag}\mathcal{M}\mathcal{M}^{\dag}V)_{kk'}
+    &=m_{kk'}^{2}+A_{kk'}+\mu^{2}_{kk'}\frac{1}{4}\left(\sigma_{\alpha\beta}F^{\alpha\beta}\right)\left(\sigma_{\alpha\beta}F^{\alpha\beta}\right)^{\dag}\,,\\
+    &+(m\mu)_{kk'}\frac{1}{2}\left(\sigma_{\alpha\beta}F^{\alpha\beta}\right)^{\dag}
+    +(\mu m)_{kk'}\frac{1}{2}\left(\sigma_{\alpha\beta}F^{\alpha\beta}\right)\,.
+    \end{split}
+\end{align}
+We print the following matrices in \req{herm:2} explicitly % Flip order of equations.
+\begin{align}
+    \label{hermz:3}
+    m_{kk'}^{2}\!=\!
+    \begin{pmatrix}
+        m_{1}^{2} & 0\\
+        0 & m_{2}^{2}
+    \end{pmatrix}\,,\quad
+    \mu^{2}_{kk'}\!=\!
+    \begin{pmatrix}
+        \delta\mu^{2} & 0\\
+        0 & \delta\mu^{2}
+    \end{pmatrix}\,,\quad
+    A_{kk'}\!=\!A
+    \begin{pmatrix}
+        \cos^{2}\theta & \cos\theta\sin\theta\\
+        \cos\theta\sin\theta & \sin^{2}\theta
+    \end{pmatrix}\,,\\
+    (m\mu)_{kk'}=
+    \begin{pmatrix}
+        0 & i\delta\mu m_{1}\\
+        -i\delta\mu m_{2} & 0
+    \end{pmatrix}\,,\quad
+    (\mu m)_{kk'}=
+    \begin{pmatrix}
+        0 & i\delta\mu m_{2}\\
+        -i\delta\mu m_{1} & 0
+    \end{pmatrix}\,.    
+\end{align}
+The last two terms which are linear in fields in \req{herm:2} can be rearranged into a more useful form becoming
+\begin{align}
+    \label{hermz:4}
+    \begin{split}
+    &(m\mu)_{kk'}\frac{1}{2}\left(\sigma_{\alpha\beta}F^{\alpha\beta}\right)^{\dag}
+    +(\mu m)_{kk'}\frac{1}{2}\left(\sigma_{\alpha\beta}F^{\alpha\beta}\right)=\\
+    &\begin{pmatrix}
+        0 & +1\\
+        +1 & 0
+    \end{pmatrix}i\delta\mu(m_{1}-m_{2})\sigma_{\alpha\beta}^\mathrm{AH}F^{\alpha\beta}/2
+    +
+    \begin{pmatrix}
+        0 & +1\\
+        -1 & 0
+    \end{pmatrix}i\delta\mu(m_{1}+m_{2})\sigma_{\alpha\beta}^\mathrm{H}F^{\alpha\beta}/2\,,
+    \end{split}
+\end{align}
+where we define the Hermitian and anti-Hermitian portions of the spin tensor
+\begin{align}
+    \label{antiherm:1}
+    \sigma_{\alpha\beta}^\mathrm{H}=\frac{1}{2}\left(\sigma_{\alpha\beta}^{\dag} + \sigma_{\alpha\beta}\right)\,,\qquad
+    \sigma_{\alpha\beta}^\mathrm{AH}=\frac{1}{2}\left(\sigma_{\alpha\beta}^{\dag} - \sigma_{\alpha\beta}\right)\,.
+\end{align}
+The reason that defining \req{antiherm:1} has utility, is that the product $\sigma_{\alpha\beta}^\mathrm{H}F^{\alpha\beta}$ projects out the the $\vec{\sigma}\cdot\vec{B}$ magnetic terms while $\sigma_{\alpha\beta}^\mathrm{AH}F^{\alpha\beta}$ projects out the $i\vec{\sigma}\cdot\vec{E}$ electric terms. It is interesting to note that if the free-particle masses are degenerate $m_{1}=m_{2}$, the linear off-diagonal electric field term vanishes. This indicates that the presence of an electrical field is responsible for splitting between the masses which is analogous to level splitting of atomic orbitals in electrical fields.
+
+To finally diagonalize \req{herm:2} and find its eigenvalues, we recast the expression symbolically as
+\begin{align}
+    \label{hermz:5}
+    (V^{\dag}\mathcal{M}\mathcal{M}^{\dag}V)_{kk'} =
+    \begin{pmatrix}
+        A & X+iY\\
+        X-iY & B
+    \end{pmatrix}\,,
+\end{align}
+with the explicit elements
+\begin{align}
+    A = m_{1}^{2}+A\cos^{2}\theta+\delta\mu^{2}\left(\frac{1}{4}\sigma_{\alpha\beta}F^{\alpha\beta}\right)\left(\frac{1}{4}\sigma_{\alpha\beta}F^{\alpha\beta}\right)^{\dag}\,,\\
+    B = m_{2}^{2}+A\sin^{2}\theta+\delta\mu^{2}\left(\frac{1}{4}\sigma_{\alpha\beta}F^{\alpha\beta}\right)\left(\frac{1}{4}\sigma_{\alpha\beta}F^{\alpha\beta}\right)^{\dag}\,,\\
+    X = \\
+    Y =\,,
+\end{align}
+The eigenvalues $\lambda_{j}=\widetilde m_{j}^{2}(E,B)$ of \req{herm:5} are then obtained from the characteristic equation
+\begin{align}
+    (A-\lambda_{j})(B-\lambda_{j})-X^{2}-Y^{2}=0\,.
+\end{align}
+WRITE OUT THE EIGENVALUES FROM QUADRATIC SOLUTION.
+
+
+ and were linked to dark matter and baryon asymmetry~\cite{Asaka:2005pn,Boyarsky:2009ix}
+
+~\cite{DUNE:2020fgq}
+
+   
+%None of the following helps our paper and distracts reader.
+
+
+It is also unknown which (normal or inverted) hierarchy neutrinos follow therefore probing the EM properties of neutrinos could contribute evidence for one model over the other~\cite{Kouzakov:2023jtt}. 
+
+ allowing for $\nu_{\ell}+\gamma\rightarrow\nu_{\ell'}\ (\ell\neq\ell')$. Here $\ell$ are the neutral lepton flavor indices $\ell\in\nu_{e},\nu_{\mu},\nu_{\tau}$
+
+
+The transition moments are considered smaller than direct moments, but 
+
+BSM physics supporting neu or non-standard neutrinos~\cite{Giunti:2014ixa} are capable of producing an abnormally large electromagnetic dipole~\citep{Ohlsson:2012kf,Lindner:2017uvt,Brdar:2020quo} within the bounds of~\req{bound:1} which may manifest itself in strong field or/and dense matter environments.
+
+ Rather as we will see, a complex phase will be required to actually rotate the transition dipoles.
+
+Therefore applying the free particle rotation $V_{\ell k}$ will simplify the overall mass-dipole matrix in \req{mix:2}. 
+
+
+%Made equation exxplicit so there is cut
+
+
+
+ 
+ W_{\ell j}^{\dag}M_{\ell\ell'}\gamma_{0}W_{\ell' j'} +
+ Z_{kj}^{\dag}(\mu_{kk'}\frac{1}{2}\sigma_{\alpha\beta}\gamma_{0}F^{\alpha\beta})Z_{k'j'}=\lambda_{j}\delta_{jj'}\,.

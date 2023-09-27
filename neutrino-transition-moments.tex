@@ -23,7 +23,7 @@
 \newcommand{\orcC}{0000-0001-5474-2649}
 
 \begin{document}
-\markboth{J. Rafelski, A. Steinmetz, and C. T. Yang}{Dynamic neutrino flavor mixing through transition magnetic moments}
+\markboth{J. Rafelski, A. Steinmetz, and C. T. Yang}{Dynamic fermion flavor mixing through transition dipole moments}
 
 %%%%%%%%%%%%%%%%%%%%% Publisher's Area please ignore %%%%%%%%%%%%%%%
 %
@@ -45,12 +45,12 @@
 \end{history}
 
 \begin{abstract}
-We show that Majorana neutrino flavor mixing can be driven by transition dipole moments in the presence of external electromagnetic fields. We demonstrate the sensitivity of the rotation mixing matrix to strong fields obtaining effective mass eigenstates in the two-flavor model. The three-flavor case and extensions to the quark sector are discussed.
+We show that Majorana neutrino flavor mixing can be driven by transition dipole moments in the presence of external electromagnetic fields. We demonstrate the sensitivity of the rotation mixing matrix to strong fields obtaining effective mass eigenstates in the two-flavor model. The three-flavor case and extensions to the quark sector are introduced.
 
 \keywords{Majorana neutrinos; transition magnetic dipoles; electromagnetic fields.}
 \end{abstract}
 
-\ccode{PACS numbers:}
+\ccode{PACS numbers: 14.60.Lm, 14.60.Pq, 13.15.+g, 13.40.Em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
@@ -59,9 +59,9 @@ We show that Majorana neutrino flavor mixing can be driven by transition dipole 
 
 Advancement of the understanding of neutrino physical properties attracts much interest today: Neutrinos are very abundant in the Universe, they were a dominant form of energy density in the Universe for much of its history, and they influence stellar and supernova evolution. As neutrinos are naturally massless in the standard model, the observed flavor oscillation signal non-vanishing neutrino mass. This suggests that neutrinos could provide a window to explore Beyond Standard Model (BSM) physics. This also motivates intense efforts to determine whether they are Dirac-type or Majorana-type fermions with the latter serving as their own antiparticle.
 
-We study the connection between Majorana neutrino transition magnetic dipole moments~\cite{Fujikawa:1980yx,Shrock:1980vy,Shrock:1982sc} and neutrino flavor oscillation. Neutrino electromagnetic (EM) properties have been considered before~\cite{Schechter:1981hw,Giunti:2014ixa,Chukhnova:2019oum,Popov:2019nkr} including the effect of oscillation~\cite{Pal:1991pm,Elizalde:2004mw}. The case of transition moments has the mathematical characteristics of an off-diagonal mass which is distinct from normal direct dipole moment behavior. EM field effects are also distinct from weak interaction remixing within matter, {\it i.e.\/} the Mikheyev-Smirnov-Wolfenstein effect~\cite{Wolfenstein:1977ue,Mikheyev:1985zog,Smirnov:2003da}.
+We study the connection between Majorana neutrino transition magnetic dipole moments~\cite{Fujikawa:1980yx,Shrock:1980vy,Shrock:1982sc} and neutrino flavor oscillation. Neutrino electromagnetic (EM) properties have been considered before~\cite{Schechter:1981hw,Giunti:2014ixa,Popov:2019nkr,Chukhnova:2019oum} including the effect of oscillation~\cite{Lim:1987tk,Akhmedov:1988uk,Pal:1991pm,Elizalde:2004mw,Akhmedov:2022txm} in magnetic fields. The case of transition moments has the mathematical characteristics of an off-diagonal mass which is distinct from normal direct dipole moment behavior. EM field effects are also distinct from weak interaction remixing within matter, {\it i.e.\/} the Mikheyev-Smirnov-Wolfenstein effect~\cite{Wolfenstein:1977ue,Mikheyev:1985zog,Smirnov:2003da}.
 
-For the case of two nearly degenerate neutrinos with transition moments, we determine and their eigenstates in the presence of EM fields. We obtain an EM-mass basis, distinct from flavor, and free-particle mass basis, which mixes flavors as a function of EM fields. Moreover we show solutions relating to full EM field tensor which result in covariant expressions allowing for both magnetic and electrical fields we have not seen considered before. As neutrinos are electrically neutral, they have no intrinsic magnetic moment due to their spin, therefore any nonzero dipole moment is anomalous.
+For the case of two nearly degenerate neutrinos with transition moments, we determine and their eigenstates in the presence of EM fields. We obtain an EM-mass basis, distinct from flavor and free-particle mass basis, which mixes flavors as a function of EM fields. Moreover we show solutions relating to full EM field tensor which result in covariant expressions allowing for both magnetic and electrical fields we have not seen considered before. As neutrinos are electrically neutral, they have no intrinsic magnetic moment due to their spin, therefore any nonzero dipole moment is anomalous.
 
 An anomalous magnetic moment (AMM) can be introduced into the neutrino effective Lagrangian via a Pauli term~\cite{Steinmetz:2018ryf,Itzykson:1980rh,Schwartz:2014sze}. Noteworthy for Majorana neutrinos, they can only possess transition magnetic moments which couple different flavors electromagnetically and do not violate CPT symmetry. Transition moments break lepton number conservation and therefore neutrino flavors could be remixed when exposed to strong EM fields.
 
@@ -70,13 +70,17 @@ The size of the neutrino magnetic dipole moment can be constrained as follows: T
 \label{bound:1}
 \frac{e\hbar G_{F}m_{\nu}c^{2}}{8\pi^{2}\sqrt{2}} \sim 10^{-20}\mu_{B}<\mu_{\nu}^\mathrm{eff}<10^{-10}\mu_{B}\,,\qquad\mu_{B}=\frac{e\hbar}{2m_{e}}
 \end{align}
-where $G_{F}$ is the Fermi constant and $\mu_{\nu}^\mathrm{eff}$ is the effective and characteristic size of the neutrino magnetic moment. In \req{bound:1}, the lower bound was estimated using a characteristic mass of $m_{\nu}\sim0.1~\mathrm{eV}$. From cosmological studies, the sum of neutrino masses is estimated~\cite{Planck:2018vyg} to be $\sum_{i}m_{i}<0.12$~eV; the effective electron (anti)neutrino mass is bounded~\cite{KATRIN:2021uub} by $m_{\nu_{e}}<0.8$~eV.
+where $G_{F}$ is the Fermi constant and $\mu_{\nu}^\mathrm{eff}$ is the effective and characteristic size of the neutrino magnetic moment. In \req{bound:1}, the lower bound was estimated using a characteristic mass of $m_{\nu}\sim0.1~\mathrm{eV}$. From cosmological studies, the sum of neutrino masses is estimated~\cite{Planck:2018vyg} to be $\sum_{i}m_{i}<0.12$~eV; the effective electron (anti)neutrino mass is bounded~\cite{KATRIN:2021uub} by $m_{e}^{\nu}<0.8$~eV.
 
-We discuss the standard flavor mixing program in \rsec{sec:nuflavor} and the effective Lagrangian density containing both Majorana mass and transition dipole moments. In \rsec{sec:numoment} we discuss the properties of the relativistic Pauli dipole. The two-flavor neutrino model is evaluated explicitly in \rsec{sec:nutoy} and the remixed electromagnetic-mass eigenstates are obtained. The strong field (denegerate mass) and weak field limits are explored. While we focus our analysis on Majorana neutrinos, we note that the techniques in this work can be extended to apply to Dirac fermions and may be of interest in the quark and charged lepton sector. Our results and future research outlook is summarized in \rsec{sec:conclusions}.
+We discuss  the standard flavor mixing method and the effective Lagrangian density containing both Majorana mass and transition dipole moments in \rsec{sec:nuflavor}.  In \rsec{sec:numoment} we discuss the properties of the relativistic Pauli dipole. The two-flavor neutrino model is evaluated explicitly in \rsec{sec:nutoy} where the remixed electromagnetic-mass eigenstates are obtained. Furthermore we consider the strong field (degenerate mass) and weak field limits are explored. While we focus our analysis on Majorana neutrinos, we note that the techniques in this work can be extended to apply to Dirac fermions and may be of interest in the quark and charged lepton sector. Our results and future research outlook are described in \rsec{sec:conclusions}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Neutrino flavor mixing and electromagnetic fields}
 \label{sec:nuflavor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Standard flavor mixing method}
+\label{sec:numethod}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Oscillation of neutrino flavors observed in experiment is in general interpreted as being due to a difference in neutrino mass and flavor eigenstates. This misalignment between the two representations is described as rotation of the neutrino flavor $N$-vector where $N=3$ is the observed number of generations. The unitary mixing matrix $V_{\ell k}$ allows for the change of basis between mass $(k)$ and flavor $(\ell)$ eigenstates via the transform 
 \begin{alignat}{1}
@@ -122,6 +126,10 @@ V_{\ell k}^{T}M_{\ell\ell'}V_{\ell'k'} = M_{kk'} = m_{k}\delta_{kk'} = \mathrm{d
 \end{align}
 We note that there are many interesting models for mass matrices which were pioneered by Fritzsch and Xing~\cite{Fritzsch:1995dj,Fritzsch:1998xs,Fritzsch:1999ee,Xing:2000ik} in the leptonic sector. The masses $m_{k}$ are taken to be real and positive labelling the free propagating states of the three neutrinos.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Effective Majorana neutrino Lagrangian}
+\label{sec:nuaction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Turning now to the action, the Majorana mass term in the Lagrangian can be written in the flavor basis as
 \begin{alignat}{1}
 \label{mass:1} -\mathcal{L}_{\mathrm{mass}}^{\mathrm{Maj.}}=\frac{1}{2}\bar\nu_{\ell}M_{\ell\ell'}\nu_{\ell'}\,,\qquad
@@ -185,10 +193,10 @@ We can combine the mass term in~\req{mass:1} and AMM contribution in~\req{moment
 \label{massmom:3}
 \mathcal{M}_{\ell\ell'}(E,B)\equiv M_{\ell\ell'}+\mu_{\ell\ell'}\frac{1}{2}\sigma_{\alpha\beta}F^{\alpha\beta}_\mathrm{ext}\,,\qquad \mathcal{M}_{\ell\ell'}^{\dag}=\gamma_{0}\mathcal{M}_{\ell\ell'}\gamma_{0}\,.
 \end{align}
-As neutrinos must propagate as energy eigenstates, our objective is to find the eigenvalues of \req{massmom:2} rather than \req{diag:1}. As the mass eigenvalues are modified by the presence the EM interactions $m\rightarrow\widetilde m(E,B)$ so will the mixing matrix, leading to modifications of \req{phases:1}. These electromagnetic components then facilitate time-dependant oscillation among the free-particle mass eigenstates~\cite{Giunti:2014ixa}.
+As neutrinos propagate as energy eigenstates, our objective is to find the mass modification due electormagnetic field, thus the eigenvalues of \req{massmom:3} rather than those seen in \req{diag:1}. Since the effective neutrino mass is modified by the presence the EM interactions $m\rightarrow\widetilde m(E,B)$, so will the mixing matrix, leading to modifications of \req{phases:1}. These electromagnetic components then facilitate time-dependant oscillation among the free-particle mass eigenstates~\cite{Giunti:2014ixa}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Chiral properties of the relativistic Pauli dipole}
+\subsection{Chiral properties of the relativistic Pauli dipole}
 \label{sec:numoment}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The electromagnetic dipole behavior of the neutrino depends on mathematical properties of the tensor product $\sigma_{\alpha\beta}F^{\alpha\beta}_\mathrm{ext}$. We prefer to work in the Weyl (chiral) spinor representation where the EM contribution is diagonal in spin space. Therefore we evaluate the product $\sigma_{\alpha\beta}F^{\alpha\beta}_\mathrm{ext}$ in the Weyl representation following Feynman and Gell-mann\cite{Feynman:1958ty} yielding
@@ -243,6 +251,7 @@ Now that we have elaborated on the relevant EM field identities, we turn back to
 \section{Two-flavor toy model of electromagnetic-mass mixing}
 \label{sec:nutoy}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Fundamentals of electromagnetic mixing method}
 Considering experimental data on neutrino oscillations, it is understood that either the two lighter (normal hierarchy) or the two heavier (inverted hierarchy) neutrino states are close together in mass. If the electromagnetic properties of the neutrino do indeed lead to flavor mixing effects, then it is likely the closer pair of neutrino mass states that are most sensitive to the phenomenon we explore. In the spirit of Bethe~\cite{Bethe:1986ej}, we therefore explore the $N=2$ two generation $(\nu_{e},\nu_{\mu})$ toy model.
 
 Following the properties established in \req{props:1} and \req{massmom:3} we write down the two generation mass and dipole matrices as
@@ -277,9 +286,7 @@ m_{e}^{\nu} & {\delta m}+i\delta\mu\sigma_{\alpha\beta}F^{\alpha\beta}_\mathrm{e
 \end{pmatrix}\,,\qquad
 \mathcal{M}_{\ell\ell'}^{\dag}=\gamma_{0}\mathcal{M}_{\ell\ell'}\gamma_{0}\,.
 \end{align}
-As noted before, this matrix is not Hermitian due to the inclusion of the spin tensor, therefore it is not guaranteed to satisfy an algebraic eigenvalue equation in its present form which is a requirement for well behaved masses.
-
-This can be remedied by recalling that any arbitrary complex matrix can be diagonalized into its real eigenvalues $\lambda_{j}$ by the biunitary transform
+As noted before, this matrix is not Hermitian due to the inclusion of the spin tensor. However, any arbitrary complex matrix can be diagonalized into its real eigenvalues $\lambda_{j}$ by the biunitary transform
 \begin{align}
 \label{biunitary:1}
 W_{\ell j}^{\dag}\mathcal{M}_{\ell\ell'}Y_{\ell'j'}=\lambda_{j}\delta_{jj'}\,,
@@ -311,7 +318,7 @@ W^{\dag}(\mathcal{M}\mathcal{M}^{\dag})W &= W^{\dag}(\mathcal{M}\gamma_{0})WW^{\
 We associate $\lambda_{j}=\widetilde m_{j}(E,B)$ with $j\in1,2$ as the effective EM-mass states which are field dependant in this basis. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Breaking electromagnetic-mass mixing into two rotations}
+\subsection{Separating electromagnetic-mass mixing}
 \label{sec:zmixing}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The matrix $W_{\ell j}$ mixes flavor states into a new basis distinct from the free-particle case however this rotation must smoothly connect with the free-particle case in the limit that the electromagnetic fields go to zero. We proceed to evaluate $W_{\ell j}$ breaking the rotation into two separate unitary transformations: a) rotation $V_{\ell k}^{\dag}(\ell\rightarrow k)$ to free-particle mass; and b) rotation $Z_{kj}^{\mathrm{ext}\dag}(k\rightarrow j)$ to the EM-mass basis. Guided by \req{basis:1} we write
@@ -397,10 +404,10 @@ Z^{\mathrm{ext}\dag}\begin{pmatrix}
 \req{herm:4} is therefore the working matrix equation which needs to be solved to identify the EM rotation parameters. As discussed before, this means that the rotation angle $\omega$ and phase $\phi$ are in general functions of electromagnetic fields.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Effective electromagnetic-mass eigenvalue results}
+\subsection{Dynamic electromagnetic-mass eigenvalue results}
 \label{sec:emmass}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-We will now solve for the rotation parameters necessary to define the EM-mass basis which acts as a distinct propagating basis for neutrinos in external fields. If we interpret the the $j$-columns vectors $v_{k}^{(j)}$ of $Z_{kj}^\mathrm{ext}$ as eigenvectors for each $\lambda_{j}$
+We will now solve for the rotation parameters necessary to define the EM-mass basis which acts as a distinct propagating basis for neutrinos in external fields. Considering that the $j$-columns vectors $v_{k}^{(j)}$ of $Z_{kj}^\mathrm{ext}$ are eigenvectors for each $\lambda_{j}$
 \begin{align}
 \label{herm:5}
 Z_{kj}^\mathrm{ext}=v_{k}^{(j)}=
@@ -408,7 +415,7 @@ Z_{kj}^\mathrm{ext}=v_{k}^{(j)}=
 v^{1} & v^{2}
 \end{pmatrix}\,,
 \end{align}
-then \req{herm:4} can be understood as an eigenvalue equation
+\req{herm:4} has the meaning of an eigenvalue equation
 \begin{align}
 \label{herm:6}
 \begin{pmatrix}
@@ -458,7 +465,7 @@ The complex phase in \req{zrot:2} has the value $\phi=\pi(n-1/2)$ with $n\in0,\p
 We note that the solution in \req{poly:3} actually contain four distinct EM-mass eigenstates $\widetilde m_{j}^{s}(E,B)$ with the lower $(j=1)$ and upper $(j=2)$ masses and the additional spin splitting from the alignment $(s=+1)$ or anti-alignment $(s=-1)$ of the neutrino spin with the momentum density of the external EM field. Spin splitting vanishes for the pure electric or magnetic field cases. For good spin eigenstates $s\in\pm1$, we can rewrite \req{poly:1a} with EM fields explicitly as
 \begin{align}
 \label{spinsplit:1}
-\mathcal{C}^{2}_{s}=2\delta\mu^{2}\left(\frac{1}{2}(B^{2}+E^{2}/c^{2})+s|\vec{E}/c\times\vec{B}|\right)\,.
+\mathcal{C}^{2}_{s}(E,B)=2\delta\mu^{2}\left(\frac{1}{2}(B^{2}+E^{2}/c^{2})+s|\vec{E}/c\times\vec{B}|\right)\,.
 \end{align}
 The above expression within the square is positive definite, therefore \req{spinsplit:1} is always real. Spin splitting requires that we consider separate rotations for each spin state as the rotation angle $\omega_{s}$ depends on the spin quantum number
 \begin{align}
@@ -510,19 +517,20 @@ We have incorporated electromagnetic effects in the Majorana neutrino mixing mat
 In the two generation case, we determined the effect of electric and magnetic fields on flavor rotation in \req{zrot:2} by introducing an electromagnetic flavor unitary rotation $Z_{kj}^\mathrm{ext}$. We presented remixed mass eigenstates $\widetilde m(E,B)$ in \req{poly:3} which are the propagating mass-states in a background electromagnetic field $F^{\alpha\beta}_\mathrm{ext}(x^{\mu})$. These EM-mass eigenstates were also further split by spin aligned and anti-aligned states relative to the external field momentum density. There is much left to do to explore further the nascent connection between spin and flavor via transition magnetic moments. 
 
 Of particular interest is the case of nearly degenerate free-particle mass eigenstates where the EM effects are most manifest. For nearly degenerate masses compared to EM fields described by $\mathcal{C}_{s}(E,B)\gg|\Delta m|^{2}$ in \req{spinsplit:1}, the mass splitting is dominated by the electromagnetic contribution. This effect would be most relevant for strong magnetic field environments such as around magnetars or primordial magnetic fields in the Early Universe and are capable of competing with the mass splitting seen in the two closer neutrino mass states. We also emphasize that dense matter environments may also be relevant where the electrical field energy density is large. A natural extension of this work would be to include in matter weak interaction remixing as an additional term in the effective Lagrangian in \req{massmom:2}.
+ 
+The transition dipole moments are the origin of dynamical flavor mixing. While our focus was on Majorana neutrinos, Dirac-type fermions (neutrinos included) may also have non-zero transition  dipole moments. These could  remix flavor in the presence of strong external background fields. Here  quarks  are of special interest because they are not only electrically charged, but have color charge as well. This means quarks could in principle possess one or both EM and color-charge transition dipole moments leading to dynamical effects in the CKM mixing matrix within hadrons as well as in quark-gluon plasma.
 
-The key ingredient to generating dynamical flavor mixing is the inclusion of transition dipole moments. While our focus was on Majorana neutrinos, Dirac-type fermions (neutrinos included) may also have non-zero transition EM dipole moments which would serve to remix flavor in the presence of strong external background EM fields. Additionally, other fermions (such as quarks) are of interest because they are not only electrically charged, but have color charge as well. This means quarks could in principle possess both EM and color transition dipole moments leading to dynamical effects in the CKM mixing matrix within hadrons or in quark-gluon plasma.
-
-More speculatively, as transition dipoles act as a mechanism to generate mass via coupling the states to the EM energy density $T_\mathrm{ext}^{00}$ as seen in \req{poly:3}, an additional consideration of our work is to postulate the presence of a dark vector field in the Universe which if coupled to neutrinos would behave like off-diagonal masses in flavor. Massless neutrinos could then obtain dynamical non-zero masses in the Universe by virtue of their interactions originating in dark transition moments.
+More speculatively, as transition dipoles act as a mechanism to generate mass by virtue of EM energy density $T_\mathrm{ext}^{00}$ as seen in \req{poly:3}, an analogous consequence of our work could arise in the presence of a dark vector field in the Universe coupled to neutrinos, resulting in off-diagonal masses in flavor. Massless neutrinos could then obtain dynamical non-zero masses in the Universe by virtue of their interactions originating in dark transition moments.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Acknowledgements (by Johann Rafelski)}
 \label{sec:acknowledgements}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-An earlier version of this article appears in the book edited by Gerhard Buchalla, Dieter L\"ust and Zhi-Zhong Xing dedicated to memory of Harald Fritzsch. With Harald's passing I lost a friend of more than 40 years and, equally importantly, a colleague whose fast mind, willingness to listen, and clarity of thought, helped in some of my own challenges. I had very much wished to hear his opinion on this work.
+A close version of this article also appears in the book dedicated to memory of Harald Fritzsch edited by Gerhard Buchalla, Dieter L\"ust and Zhi-Zhong Xing. With Harald's passing we lost a friend  and, equally importantly, a colleague whose fast mind, willingness to listen, and clarity of thought, helped in some of our research challenges. We had very much wished to hear Harald's opinion on this work.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bibliographystyle{unsrturl}
+%\bibliographystyle{ws-ijmpa}
 \bibliography{neutrino-transition-moments-refs}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document} 

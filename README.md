@@ -2,7 +2,7 @@
 Dynamic fermion flavor mixing through transition dipole moments
 
 ## abstract
-We show that Majorana neutrino flavor mixing can be driven by transition dipole moments in the presence of external electromagnetic fields. We demonstrate the sensitivity of the rotation mixing matrix to strong fields obtaining dynamical mass eigenstates in the two-flavor model. The three-flavor case and extensions to the quark sector are introduced. This article was originally a contribution to the book edited by Gerhard Buchalla, Dieter Lust and Zhi-Zhong Xing dedicated to memory of Harald Fritzsch.
+We show that Majorana neutrino flavor mixing can be driven by transition dipole moments in the presence of external electromagnetic fields. We demonstrate the sensitivity of the rotation mixing matrix to strong fields obtaining dynamical mass eigenstates in the two-flavor model. The three-flavor case and extensions to the quark sector are introduced. This article was originally a contribution to the book edited by Gerhard Buchalla, Dieter Lüst and Zhi-Zhong Xing dedicated to memory of Harald Fritzsch.
 
 ## authors
 <a
@@ -35,7 +35,7 @@ style="width: 1em; margin-inline-start: 0.5em"
 alt="ORCID iD icon"/> Cheng Tao Yang</a>
 
 ## cite as
-Rafelski, J., Steinmetz, A., & Yang, C. T. Dynamic neutrino flavor mixing through transition magnetic moments. arXiv preprint arXiv:XXXX.XXXXX [hep-ph] (2023).
+Rafelski, J., Steinmetz, A., & Yang, C. T. Dynamic fermion flavor mixing through transition dipole moments. arXiv preprint arXiv:2309.15797 [hep-ph] (2023).
 
 ## doi/arXiv id
-- TBD
+- https://doi.org/10.48550/arXiv.2309.15797

@@ -35,7 +35,8 @@ style="width: 1em; margin-inline-start: 0.5em"
 alt="ORCID iD icon"/> Cheng Tao Yang</a>
 
 ## cite as
-Rafelski, J., Steinmetz, A., & Yang, C. T. Dynamic fermion flavor mixing through transition dipole moments. arXiv preprint arXiv:2309.15797 [hep-ph] (2023).
+Rafelski, J., Steinmetz, A., & Yang, C. T. Dynamic fermion flavor mixing through transition dipole moments. International Journal of Modern Physics A (2023).
 
 ## doi/arXiv id
+- https://doi.org/10.1142/S0217751X23501634
 - https://doi.org/10.48550/arXiv.2309.15797

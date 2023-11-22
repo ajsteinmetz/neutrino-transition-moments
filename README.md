@@ -40,3 +40,6 @@ Rafelski, J., Steinmetz, A., & Yang, C. T. Dynamic fermion flavor mixing through
 ## doi/arXiv id
 - https://doi.org/10.1142/S0217751X23501634
 - https://doi.org/10.48550/arXiv.2309.15797
+
+## license
+Copyright © 2023 by World Scientific.
